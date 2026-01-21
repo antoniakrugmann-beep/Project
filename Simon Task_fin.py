@@ -79,7 +79,7 @@ white_butterfly = visual.ImageStim(
     interpolate=True
 )
 
-# List of butterflies to access later
+# Dictionary of butterflies to access later
 butterflies = {
     "purple": purple_butterfly,
     "yellow": yellow_butterfly
@@ -304,4 +304,5 @@ event.waitKeys()
 
 print("DEBUG: SPACE pressed on end screen. Shutting down.")
 win0.close()
+
 core.quit()
